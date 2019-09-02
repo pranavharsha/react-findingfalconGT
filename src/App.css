@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(245, 245, 245);
+  color: #5d5d5d;
+}
+
+.cursor-p {
+  cursor: pointer!important;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.nav-title {
+  color: white!important;
+  text-decoration: none!important;
+  font-size: 2rem;
+}
+
+.HeadingFs {
+  font-size: 1.5rem;
+}
+
+.backspan {
+  font-size: 1.5rem;
+  color: #243d4e;
+  margin-right: 10px;
+  /* float: left; */
+}
+
+.custHeading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #243d4e;
+  border-bottom: 2px solid #243d4e;
+  padding-bottom: 10px;
+}
+
+.custIconSize {
+  width: 30px!important;
+  height: 30px!important;
+}
+
+.pagination {
+  display: inline-flex!important;
+}
+
+.searchIpBox:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.btn:focus {
+  box-shadow: none!important;
+}
+
+.form-control:focus {
+  box-shadow: none!important;
+}
+
+.GamesTable thead {
+  background-color: #243d4e!important;
+  color: white!important;
+}
+
+.GameName a {
+  text-decoration: none!important;
+  color: #007bff!important;
+}
+
+.detailsCardDeck .card-header {
+  background-color: #243d4e!important;
+  text-align: center;
+  color: white!important;
+}
+
+.detailsCardDeck .card-text {
+  text-align: center;
+}
+
+.bg-white {
+  background-color: white!important;
+}
+
+.fs-head {
+  font-size: 1.2rem!important;
+}
+
+.fs-subhead {
+  font-size: 1.1rem!important;
+}
+
+.fs-10px {
+  font-size: 0.625rem!important;
+}
+
+.fs-12px {
+  font-size: 0.75rem!important;
+}
+
+.fs-14px {
+  font-size: 0.875rem!important;
+}
+
+.fs-16px {
+  font-size: 1rem!important;
+}
+
+.fs-18px {
+  font-size: 1.125rem!important;
+}
+
+.fs-20px {
+  font-size: 1.25rem!important;
+}
+
+.fw-light {
+  font-weight: lighter!important;
+}
+
+.fw-300 {
+  font-weight: 300!important;
+}
+
+.fw-400 {
+  font-weight: 400!important;
+}
+
+.fw-500 {
+  font-weight: 500!important;
+}
+
+.fw-600 {
+  font-weight: 600!important;
+}
+
+.fw-bold {
+  font-weight: bold!important;
+}
+
+.p-25px{
+  padding: 25px!important;
+}
+
+.falconBtn{
+  height: 40px;
+  border-radius: 24px!important;
+  padding-left: 24px!important;
+  padding-right: 24px!important;
+  text-transform: uppercase;
+  background-color: rgb(46,46,46)!important;
+  border-color: rgb(46,46,46)!important;
+}
+
+.rmBtn{
+  background-color: #dc3545!important;
+  border-color: #dc3545!important;
+}
+
+.pos-relative{
+  position: relative!important;
+}

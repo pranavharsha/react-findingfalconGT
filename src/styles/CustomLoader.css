@@ -1,0 +1,85 @@
+.CustomLoader {
+    z-index: 1001!important;
+}
+
+.CustLoaderDiv {
+    min-height: 100%;
+    width: 100%;
+}
+
+.CustLoadImage {
+    padding: 15px;
+}
+
+.CustLoadHead {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.CustLoadContent {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+.CustLoaderOuterDiv-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.9);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-animation: CustLoaderAnm-fadeIn 0.5s 0.2s forwards;
+    -moz-animation: CustLoaderAnm-fadeIn 0.5s 0.2s forwards;
+    -o-animation: CustLoaderAnm-fadeIn 0.5s 0.2s forwards;
+    animation: CustLoaderAnm-fadeIn 0.5s 0.2s forwards;
+}
+
+@-webkit-keyframes CustLoaderAnm-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes CustLoaderAnm-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes CustLoaderAnm-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes CustLoaderAnm-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
